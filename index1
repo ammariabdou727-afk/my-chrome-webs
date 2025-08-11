@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>إلى أمي ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+            animation: bgChange 6s infinite alternate;
+            text-align: center;
+            color: #fff;
+        }
+
+        @keyframes bgChange {
+            0% { background: linear-gradient(135deg, #ffdde1, #ee9ca7); }
+            50% { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+            100% { background: linear-gradient(135deg, #fbc2eb, #a6c1ee); }
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>أمي ❤️</h1>
+    <p>أنا أحبك من كل قلبي 💕</p>
+</body>
+</html>
